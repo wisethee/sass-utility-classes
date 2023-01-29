@@ -4,7 +4,8 @@
   "description": "sass utility classes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "npx sass -w --style=compressed src/main.scss:build/main.css --no-source-map",
+    "start": "npm run sass"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wisethee/sass-utility-classes/issues"
   },
-  "homepage": "https://github.com/wisethee/sass-utility-classes#readme"
+  "homepage": "https://github.com/wisethee/sass-utility-classes#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
 }
