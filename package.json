@@ -1,0 +1,19 @@
+{
+  "name": "sass-utility-classes",
+  "version": "0.0.1",
+  "description": "sass utility classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisethee/sass-utility-classes.git"
+  },
+  "author": "Marius P.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wisethee/sass-utility-classes/issues"
+  },
+  "homepage": "https://github.com/wisethee/sass-utility-classes#readme"
+}
